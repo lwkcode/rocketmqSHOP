@@ -17,6 +17,10 @@ public class PayServiceApplication {
         SpringApplication.run(PayServiceApplication.class,args);
     }
 
+    /*@Bean
+    public IDWorker getBean(){
+        return new IDWorker(1,2);
+    }*/
     @Bean
     public IDWorker getBean(){
         return new IDWorker(1,2);
